@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.list-group {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 2rem;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+.fa-hand-fist {
+    color: #b30000;
+    margin-right: 0.5rem;
+}
+
